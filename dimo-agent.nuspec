@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dimo-agent</id>
+    <version>1.0.0</version>
+    <title>Dimo Monitoring Agent</title>
+    <authors>Dimo Tech</authors>
+    <owners>Dimo Tech</owners>
+    <projectUrl>https://dimo.tech</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/dimotech/branding/main/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dimo Monitoring Agent - Agente de monitoramento Windows altamente personalizado baseado em Zabbix.</description>
+    <summary>Agente de monitoramento para infraestrutura Windows.</summary>
+    <tags>dimo zabbix monitoring agent windows</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="content\**" target="content" />
+  </files>
+</package>
